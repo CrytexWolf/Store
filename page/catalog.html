@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <title>Catalog</title>
+</head>
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="header__items">
+                <a href="/index.html" class="header__logo"><img src="/img/headerFooter/logo-header.png" alt="" class="header__logo"></a>
+
+                <nav class="header__nav" id="nav">
+                    <a href="/page/about.html" class="nav__link">О компании</a>
+                    <a href="/page/services.html" class="nav__link">Услуги</a>
+                    <a href="#" class="nav__link">Проекты</a>
+                    <a href="/page/delivery.html" class="nav__link">Доставка и оплата</a>
+                    <a href="#" class="nav__link">Контакты</a>
+                    <a href="/page/shopping cart.html" class="nav__link">Подборка<div class="elips">+</div></a>
+                </nav>
+
+                <section class="header__contacts">
+                    <a href="mailto: info@i-lights.ru" class="email" type="email">info@i-lights.ru</a>
+                    <a href="tel: +74952335557" class="phone" type="phone">+7 (495) 233 55 57</a>
+                </section>
+                
+
+                <button class="burger" type="button" id="navToggle">
+                    <!-- Бургер меню -->
+                    <span class="burger__item">Menu</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <section class="crumbs"> 
+        <div class="container">
+            <ul class="crumbs__items">
+                <li class="crumbs__list"><a class="crumbs__text" href="/index.html">Главная</a></li> 
+                <li class="crumbs__list"><a class="crumbs__text" href="/page/catalog.html">Каталог</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <main class="catalog">
+        <div class="container">
+            <h2 class="about__name bottom-name">Каталог</h2>
+            <section class="catalog__btns">
+                <button class="catalog__btn active-btn">Трековые светильники</button>
+                <button class="catalog__btn">Встраиваемые светильники</button>
+                <button class="catalog__btn">Профильные светильники</button>
+                <button class="catalog__btn">Фигурные светильники</button>
+                <button class="catalog__btn">Светильники Армстронг</button>
+                <button class="catalog__btn">Светильники Армстронг с равномерной засветкой</button>
+            </section>
+
+            <section class="catalog__homepage">
+                <section class="catalog__filter">
+                    <div class="filter__name">
+                        <span class="filter__text">Фильтр</span>
+                        <div class="filter__img">
+                            <img src="/img/about/Group.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="filter__range">
+                        <span class="range__text">Мощность</span>
+                        <div class="range__line">
+                            <input type="range" min="0" max="432" step="1" value="0">
+                        </div>
+                    </div>
+                    <div class="filter__range">
+                        <span class="range__text">Световой поток LED</span>
+                        <div class="range__line">
+                            <input type="range" min="0" max="53820" step="1" value="0">
+                        </div>
+                    </div>
+                    <div class="filter__range">
+                        <span class="range__text">Угол рассеивания</span>
+                        <div class="range__line">
+                            <input type="range" min="0" max="160" step="1" value="0">
+                        </div>
+                    </div>
+                    <div class="filter__range">
+                        <span class="range__text">Минимальная цена</span>
+                        <div class="range__line">
+                            <input type="range" min="0" max="10575" step="1" value="0">
+                        </div>
+                    </div>
+                    <section class="filter__btns">
+                        <button class="filter__btn">Сбросить</button>
+                        <button class="filter__btn content__btn">Применить</button>
+                    </section>
+                </section>
+
+                <section class="catalog__block">
+                    <section class="catalog__items">
+                            <h2 class="about__name bottom-name">Новинки</h2>
+                            <section class="catalog__cards">
+                                    <div class="content__card">
+                                        <div class="card__week">Вт</div>
+                                        <div class="card__inner">
+                                            <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                            <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                            <ul class="card__infoitem">
+                                                <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                                <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                                <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                            </ul>
+                                            <span class="card__price">21 300 ₽</span>
+                                        </div>
+                                        <div class="card__btns">
+                                            <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                            <button class="card__plus">+</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="content__card">
+                                        <div class="card__week">Вт</div>
+                                        <div class="card__inner">
+                                            <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                            <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                            <ul class="card__infoitem">
+                                                <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                                <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                                <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                            </ul>
+                                            <span class="card__price">21 300 ₽</span>
+                                        </div>
+                                        <div class="card__btns">
+                                            <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                            <button class="card__plus">+</button>
+                                        </div>
+                                    </div>
+                                    <div class="content__card">
+                                        <div class="card__week">Вт</div>
+                                        <div class="card__inner">
+                                            <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                            <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                            <ul class="card__infoitem">
+                                                <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                                <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                                <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                            </ul>
+                                            <span class="card__price">21 300 ₽</span>
+                                        </div>
+                                        <div class="card__btns">
+                                            <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                            <button class="card__plus">+</button>
+                                        </div>
+                                    </div>
+                            </section>
+                    </section>
+                    <section class="catalog__items">
+                        <h2 class="about__name bottom-name">Весь каталог</h2>
+                        <section class="catalog__cards">
+                                <div class="content__card">
+                                    <div class="card__week">Вт</div>
+                                    <div class="card__inner">
+                                        <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                        <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                        <ul class="card__infoitem">
+                                            <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                        </ul>
+                                        <span class="card__price">21 300 ₽</span>
+                                    </div>
+                                    <div class="card__btns">
+                                        <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                        <button class="card__plus">+</button>
+                                    </div>
+
+                                </div>
+                                <div class="content__card">
+                                    <div class="card__week">Вт</div>
+                                    <div class="card__inner">
+                                        <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                        <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                        <ul class="card__infoitem">
+                                            <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                        </ul>
+                                        <span class="card__price">21 300 ₽</span>
+                                    </div>
+                                    <div class="card__btns">
+                                        <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                        <button class="card__plus">+</button>
+                                    </div>
+                                </div>
+                                <div class="content__card">
+                                    <div class="card__week">Вт</div>
+                                    <div class="card__inner">
+                                        <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                        <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                        <ul class="card__infoitem">
+                                            <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                        </ul>
+                                        <span class="card__price">21 300 ₽</span>
+                                    </div>
+                                    <div class="card__btns">
+                                        <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                        <button class="card__plus">+</button>
+                                    </div>
+                                </div>
+                                <div class="content__card">
+                                    <div class="card__week">Вт</div>
+                                    <div class="card__inner">
+                                        <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                        <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                        <ul class="card__infoitem">
+                                            <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                        </ul>
+                                        <span class="card__price">21 300 ₽</span>
+                                    </div>
+                                    <div class="card__btns">
+                                        <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                        <button class="card__plus">+</button>
+                                    </div>
+                                </div>
+                                <div class="content__card">
+                                    <div class="card__week">Вт</div>
+                                    <div class="card__inner">
+                                        <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                        <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                        <ul class="card__infoitem">
+                                            <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                        </ul>
+                                        <span class="card__price">21 300 ₽</span>
+                                    </div>
+                                    <div class="card__btns">
+                                        <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                        <button class="card__plus">+</button>
+                                    </div>
+                                </div>
+                                <div class="content__card">
+                                    <div class="card__week">Вт</div>
+                                    <div class="card__inner">
+                                        <img class="card__img" src="/img/main/card/card1.png" alt="">
+                                        <span class="card__name">Дизайнерский светильник изготавливаемый по проекту</span>
+                                        <ul class="card__infoitem">
+                                            <li class="card__infocard--marker"><span class="card__infocard">Длинна до 3 метров.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Углы поворота между секторами по проекту.</span></li>
+                                            <li class="card__infocard--marker"><span class="card__infocard">Мощность рассчитывается индивидуально.</span></li>
+                                        </ul>
+                                        <span class="card__price">21 300 ₽</span>
+                                    </div>
+                                    <div class="card__btns">
+                                        <a href="/page/product-card.html" class="card__btn">Подробнее</a>
+                                        <button class="card__plus">+</button>
+                                    </div>
+                                </div>
+                        </section>
+                        <section class="catalog__pagination">
+                            <button class="pagination__prev"><</button>
+                            <button class="pagination__number active">1</button>
+                            <button class="pagination__next">></button>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </main>
+
+
+
+    <footer class="footer">
+
+        <section class="container">
+
+            <section class="footer__columns">
+
+                <section class="footer__company">
+                    <img class="footer__logo" src="/img/headerFooter/logo-footer.png" alt="">
+                    <p class="footer__copiryte">© Technolight 2015-2021</p>
+                </section>
+
+                <section class="footer__catalog">
+                    <h4 class="footer__catalog--title">Каталог товаров</h4>
+                    <a class="footer__catalog--links" href="">Трековые светильники</a>
+                    <a class="footer__catalog--links" href="">Встраиваемые светильники</a>
+                    <a class="footer__catalog--links" href="">Профильные светильники</a>
+                    <a class="footer__catalog--links" href="">Фигурные светильники</a>
+                    <a class="footer__catalog--links" href="">Светильники Армстронг</a>
+                    <a class="footer__catalog--links" href="">Армстронг с равномерной засветкой</a>
+                    <a class="footer__catalog--links" href="">Произовдители</a>
+                </section>
+
+                <section class="footer__info">
+                    <a class="footer__catalog--title" href="">Как заказать</a>
+                    <a class="footer__catalog--title" href="">Оплата</a>
+                    <a class="footer__catalog--title" href="">Доставка</a>
+                    <a class="footer__catalog--title" href="">Реквизиты компании</a>
+                    <a class="footer__catalog--title" href="">Правовая информация</a>
+                    <a class="footer__catalog--title" href="">FAQ</a>
+                </section>
+
+                <section class="footer__contacts">
+                    <h4 class="footer__catalog--title">Контакты</h4>
+                    <a href="#" class="gps">место магазина</a>
+                    <a href="tel: +74952335557" class="phone phone--footer" type="phone">+7 (495) 233 55 57</a>
+                    <a href="mailto: info@i-lights.ru" class="email" type="email">info@i-lights.ru</a>
+                </section>
+
+
+            </section>
+
+        </section>
+
+    </footer>
+</body>
+</html>
